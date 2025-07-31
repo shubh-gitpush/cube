@@ -162,7 +162,7 @@ export default function LogoGuidelines() {
       </div>
 
       {/* Primary Logo Lockup */}
-      <div className="px-8 lg:px-16 py-16 bg-gray-900">
+      <div className="px-8 lg:px-16 py-16 bg-black-900">
         <div className="max-w-7xl mx-auto">
           <h2 className="text-4xl font-light mb-4">Primary Logo Lockup</h2>
           <p className="text-gray-400 mb-12">
@@ -173,15 +173,9 @@ export default function LogoGuidelines() {
           <div className="bg-white p-16 rounded-lg">
             <div className="flex items-center justify-center">
               <div className="flex items-center gap-4">
-                <div className="w-12 h-12 bg-black grid grid-cols-2 gap-1 p-1">
-                  <div className="bg-white"></div>
-                  <div className="bg-white"></div>
-                  <div className="bg-white"></div>
-                  <div className="bg-white"></div>
-                </div>
+                
                 <div>
-                  <div className="text-black text-2xl font-bold">Cube</div>
-                  <div className="text-gray-600 text-sm">Founders Space</div>
+                <img src="/cubelogo.svg" alt="Concept" className="max-w-full max-h-full" />
                 </div>
               </div>
             </div>

@@ -4,8 +4,8 @@ export default function Footer() {
   return (
     <footer className="bg-gray-100 relative py-48 px-8 lg:px-16">
       {/* Large CUBE Background Text */}
-      <div className="absolute inset-0 flex items-center justify-center overflow-hidden mt-[300px]">
-      <span className="absolute text-[40rem] sm:text-[15rem] lg:text-[20rem] xl:text-[25rem] font-light text-gray-900 select-none pointer-events-none leading-none z-0 opacity-20">
+      <div className="absolute inset-0  flex items-center justify-center overflow-hidden mt-[400px] overflow-visible ">
+      <span className="absolute text-[80rem] sm:text-[15rem] lg:text-[20rem] xl:text-[25rem] font-light text-gray-900 select-none pointer-events-none leading-none z-0 opacity-20">
   CUBE
 </span>
       </div>
@@ -34,9 +34,9 @@ export default function Footer() {
         </div>
 
         {/* Bottom Section */}
-        <div className="flex justify-between items-center">
+        <div className="flex justify-between items-left ">
           {/* Social Icons */}
-          <div className="flex items-center gap-6">
+          <div className="flex items-left gap-6 mr-[240px]">
             <Instagram className="w-6 h-6 text-black hover:text-gray-600 cursor-pointer transition-colors" />
             <Facebook className="w-6 h-6 text-black hover:text-gray-600 cursor-pointer transition-colors" />
             <div className="w-6 h-6 text-black hover:text-gray-600 cursor-pointer flex items-center justify-center transition-colors">

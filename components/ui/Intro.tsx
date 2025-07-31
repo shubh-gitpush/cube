@@ -15,22 +15,29 @@ const Intro = () => {
         </div>
   
         {/* A Space Section */}
-        <div className="grid lg:grid-cols-2 gap-12 lg:gap-16">
-          <div className="space-y-12 pr-[40px] border-r border-white/30">
-            <h2 className="text-3xl lg:text-4xl xl:text-5xl font-light text-white leading-tight">A Space</h2>
-            <p className="text-white text-lg leading-relaxed">
-              Limitless potential — a place where ideas take flight, innovation orbits daily, and future leaders
-              prepare for liftoff.
-            </p>
-          </div>
-          <div className="flex ml-[200px] flex-col justify-center lg:pl-8">
-            <div className="text-right space-y-2">
-              <p className="text-3xl lg:text-4xl xl:text-5xl font-light text-white leading-tight">Innovate</p>
-              <p className="text-3xl lg:text-4xl xl:text-5xl font-light text-white leading-tight">Create</p>
-              <p className="text-3xl lg:text-4xl xl:text-5xl font-light text-white leading-tight">Launch.</p>
-            </div>
-          </div>
-        </div>
+        <div className="grid lg:grid-cols-2 gap-12 lg:gap-16 relative">
+  {/* Left Column */}
+  <div className="space-y-12 pr-[40px] relative">
+    {/* Vertical Line - shifted to the left */}
+    <div className="absolute right-[-400px] top-0 bottom-0 w-px bg-white/30" />
+    
+    <h2 className="text-3xl lg:text-4xl xl:text-5xl font-light text-white leading-tight">A Space</h2>
+    <p className="text-white text-lg leading-relaxed">
+      Limitless potential — a place where ideas take flight, innovation orbits daily, and future leaders
+      prepare for liftoff.
+    </p>
+  </div>
+
+  {/* Right Column */}
+  <div className="flex mr-[300px] flex-col justify-left lg:pl-8">
+    <div className="text-right space-y-2">
+      <p className="text-3xl lg:text-4xl xl:text-5xl font-light text-white leading-tight">Innovate</p>
+      <p className="text-3xl lg:text-4xl xl:text-5xl font-light text-white leading-tight">Create</p>
+      <p className="text-3xl lg:text-4xl xl:text-5xl font-light text-white leading-tight">Launch.</p>
+    </div>
+  </div>
+</div>
+
   
         {/* Mission Statement */}
         <div className="flex justify-start">
@@ -43,21 +50,21 @@ const Intro = () => {
         </div>
   
         {/* Audacity Section */}
-        <div className="text-right space-y-8">
-          <div className="space-y-4">
-            <h2 className="text-5xl lg:text-6xl xl:text-7xl font-light text-white leading-tight tracking-tight">
-              Audacity
-            </h2>
-            <span className="text-2xl lg:text-3xl text-white">to</span>
-            <h2 className="text-5xl lg:text-6xl xl:text-7xl font-light text-white leading-tight tracking-tight">
-              Change
-            </h2>
-            <span className="text-2xl lg:text-3xl text-white">the</span>
-            <h2 className="text-5xl lg:text-6xl xl:text-7xl font-light text-white leading-tight tracking-tight">
-              World
-            </h2>
-          </div>
-        </div>
+        <div className="text-right mr-[200px] space-y-8">
+  <div className="space-y-12">
+    <h1 className="text-6xl lg:text-8xl xl:text-9xl font-light text-white leading-tight tracking-tight">
+      Audacity
+    </h1>
+    <span className="text-3xl lg:text-4xl text-white">to</span>
+    <h1 className="text-6xl lg:text-8xl xl:text-9xl font-light text-white leading-tight tracking-tight">
+      Change
+    </h1>
+    <span className="text-3xl lg:text-4xl text-white">the</span>
+    <h1 className="text-6xl lg:text-8xl xl:text-9xl font-light text-white leading-tight tracking-tight">
+      World
+    </h1>
+  </div>
+</div>
   
         {/* CUBE Variants Scroller */}
         <div className="overflow-hidden whitespace-nowrap">
