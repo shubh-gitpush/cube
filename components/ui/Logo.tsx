@@ -110,69 +110,58 @@ export default function LogoGuidelines() {
       </div>
 
       {/* Logo Variations */}
-      <div className="px-8 lg:px-16 py-16">
+      <div className="px-8  bg-white text-black lg:px-16 py-16">
         <div className="max-w-7xl mx-auto">
-          <h2 className="text-4xl font-light mb-12 text-center">CUBE</h2>
+          <h2 className="text-4xl  mb-12 text-center">CUBE</h2>
           <div className="grid grid-cols-2 lg:grid-cols-4 gap-8">
             {/* Variation 1 */}
             
-              <img src="/founders.svg" alt="concept" className="max-w-full max-h-full"/>
+              <img src="./founders.svg" alt="concept" className="max-w-full max-h-full"/>
             
 
             {/* Variation 2 */}
-            <div className="bg-gray-900 p-8 rounded-lg">
-              <div className="w-16 h-16 mx-auto grid grid-cols-2 gap-1">
-                <div className="bg-gray-600"></div>
-                <div className="bg-white"></div>
-                <div className="bg-white"></div>
-                <div className="bg-gray-600"></div>
-              </div>
-            </div>
+            <img src="./community.svg" alt="concept" className="max-w-full max-h-full"/>
 
             {/* Variation 3 */}
-            <div className="bg-gray-900 p-8 rounded-lg">
-              <div className="w-16 h-16 mx-auto grid grid-cols-2 gap-1">
-                <div className="bg-white"></div>
-                <div className="bg-white"></div>
-                <div className="bg-gray-600"></div>
-                <div className="bg-gray-600"></div>
-              </div>
-            </div>
+            <img src="./resources.svg" alt="concept" className="max-w-full max-h-full"/>
 
             {/* Variation 4 */}
-            <div className="bg-gray-900 p-8 rounded-lg">
-              <div className="w-16 h-16 mx-auto grid grid-cols-2 gap-1">
-                <div className="bg-gray-600"></div>
-                <div className="bg-gray-600"></div>
-                <div className="bg-white"></div>
-                <div className="bg-white"></div>
-              </div>
-            </div>
+            <img src="./captial.svg" alt="concept" className="max-w-full max-h-full"/>
           </div>
         </div>
       </div>
 
       {/* Primary Logo Lockup */}
       <div className="px-8 lg:px-16 py-16 bg-black-900">
-        <div className="max-w-7xl mx-auto">
-          <h2 className="text-4xl font-light mb-4">Primary Logo Lockup</h2>
-          <p className="text-gray-400 mb-12">
-            This logo lockup is the primary version and should be used whenever possible. It includes the CUBE symbol
-            with the full wordmark.
-          </p>
+  <div className="max-w-7xl mx-auto">
+    <div className="grid grid-cols-1 md:grid-cols-2 gap-4 text-white mb-12">
+      {/* Column 1 — h2 only */}
+      <div className="text-right md:text-left">
+        <h2 className="text-4xl font-light">
+          Primary Logo Lockup 
+        </h2>
+      </div>
 
-          <div className="bg-white p-16 rounded-lg">
-            <div className="flex items-center justify-center">
-              <div className="flex items-center gap-4">
-                
-                <div>
-                <img src="/cubelogo.svg" alt="Concept" className="max-w-full max-h-full" />
-                </div>
-              </div>
-            </div>
-          </div>
+      {/* Column 2 — all span text */}
+      <div className="text-right">
+        <span>custom wordmark. We use this lockup for all kinds of purposes—</span>
+        <br />
+        <span>from external communications, to letterhead, to the header of our website.</span>
+      </div>
+    </div>
+
+    {/* Logo Section */}
+    <div className="bg-white p-16 rounded-lg">
+      <div className="flex items-center justify-center">
+        <div className="flex items-center gap-4">
+          <img src="/cubelogo.svg" alt="Concept" className="max-w-full max-h-full" />
         </div>
       </div>
+    </div>
+  </div>
+</div>
+
+
 
       {/* Full Color Version */}
       <div className="px-8 lg:px-16 py-16">
@@ -192,8 +181,7 @@ export default function LogoGuidelines() {
                       <div className="bg-black"></div>
                     </div>
                     <div>
-                      <div className="text-white text-2xl font-bold">Cube</div>
-                      <div className="text-gray-400 text-sm">Founders Space</div>
+                    <img src="./cubewhite.svg" alt="concept" className="max-w-full max-h-full"/>
                     </div>
                   </div>
                 </div>
@@ -216,8 +204,7 @@ export default function LogoGuidelines() {
                       <div className="bg-white"></div>
                     </div>
                     <div>
-                      <div className="text-black text-2xl font-bold">Cube</div>
-                      <div className="text-gray-600 text-sm">Founders Space</div>
+                    <img src="./cubewhite.svg" alt="concept" className="max-w-full max-h-full"/>
                     </div>
                   </div>
                 </div>
