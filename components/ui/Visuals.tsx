@@ -3,33 +3,12 @@ import Image from "next/image"
 
 export default function Visuals() {
   return (
-    <div className="min-h-screen bg-white text-white">
+    <div className="min-h-screen  text-white">
       {/* Header */}
-      <div className="flex items-center bg-black justify-between px-8 lg:px-16 py-8 border-b border-gray-800">
-        <div className="flex items-center gap-4">
-          <ArrowLeft className="w-6 h-6 cursor-pointer hover:text-gray-300" />
-          <nav className="flex gap-8 text-sm">
-            <a href="#" className="text-gray-400 hover:text-white">
-              Introduction
-            </a>
-            <a href="#" className="text-gray-400 hover:text-white">
-              Logo
-            </a>
-            <a href="#" className="text-gray-400 hover:text-white">
-              Typography
-            </a>
-            <a href="#" className="text-gray-400 hover:text-white">
-              Colors
-            </a>
-            <a href="#" className="text-white border-b border-white pb-1">
-              Visuals
-            </a>
-          </nav>
-        </div>
-      </div>
+      
 
       {/* Visuals Hero Section */}
-      <div className="px-8 lg:px-16  bg-black py-16 relative overflow-hidden">
+      <div className="px-8 lg:px-16  py-16 relative overflow-hidden">
         <div className="max-w-7xl mx-auto">
           <h1 className="text-6xl lg:text-7xl font-light mb-8">Visuals</h1>
           <div className="grid lg:grid-cols-2 gap-16">
@@ -50,7 +29,7 @@ export default function Visuals() {
               </div>
             </div>
             <div className="flex justify-center items-center">
-              <div className="w-64 h-64 bg-black-900 rounded-lg flex items-center justify-center">
+              <div className="w-64 h-64 bg-white-900 rounded-lg flex items-center justify-center">
                 
               </div>
             </div>
@@ -91,9 +70,9 @@ export default function Visuals() {
 </div>
 
       {/* Product Mockups (Cards) */}
-      <div className="px-4 lg:px-32 py-32">
+      <div className="px-4 lg:px-32 py-32 bg-white">
   <div className="max-w-7xl mx-auto">
-    <h2 className="text-5xl font-light mb-12 text-center">Product Applications</h2>
+    
 
     <div className="flex justify-center">
       <img
@@ -105,7 +84,7 @@ export default function Visuals() {
   </div>
 </div>
       {/* Container Mockups */}
-      <div className="px-8 lg:px-16 py-16">
+      <div className="px-8 lg:px-16 py-16 bg-white">
         <div className="max-w-12xl mx-auto">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             <div className="relative w-full h-[500px]  flex items-center justify-center rounded-lg overflow-hidden">
@@ -132,9 +111,9 @@ export default function Visuals() {
       
 
       {/* USB Drive Mockups */}
-      <div className="px-8 lg:px-16 py-16">
+      <div className="px-8 lg:px-16 py-16 bg-white">
   <div className="max-w-7xl mx-auto">
-    <h2 className="text-4xl font-light mb-12 text-center">Merchandise & Swag</h2>
+    
 
     <div className="space-y-8">
       {/* Image 1 */}

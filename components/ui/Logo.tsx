@@ -2,12 +2,12 @@ import { ArrowLeft } from "lucide-react"
 
 export default function LogoGuidelines() {
   return (
-    <div className="min-h-screen bg-black text-white">
+    <div className="min-h-screen text-white">
       {/* Header */}
       
 
       {/* Our Logo Section */}
-      <div className="px-8 lg:px-16 py-16">
+      <div className="px-16 lg:px-16 py-1">
         <div className="max-w-7xl mx-auto">
           <div className="grid lg:grid-cols-2 gap-16 items-center">
             <div>

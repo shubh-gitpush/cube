@@ -2,30 +2,9 @@ import { ArrowLeft } from "lucide-react"
 
 export default function Typography() {
   return (
-    <div className="min-h-screen bg-black text-white">
+    <div className="min-h-screen text-white">
       {/* Header */}
-      <div className="flex items-center justify-between px-8 lg:px-16 py-8 border-b border-gray-800">
-        <div className="flex items-center gap-4">
-          <ArrowLeft className="w-6 h-6 cursor-pointer hover:text-gray-300" />
-          <nav className="flex gap-8 text-sm">
-            <a href="#" className="text-gray-400 hover:text-white">
-              Introduction
-            </a>
-            <a href="#" className="text-gray-400 hover:text-white">
-              Logo
-            </a>
-            <a href="#" className="text-white border-b border-white pb-1">
-              Typography
-            </a>
-            <a href="#" className="text-gray-400 hover:text-white">
-              Colors
-            </a>
-            <a href="#" className="text-gray-400 hover:text-white">
-              Visuals
-            </a>
-          </nav>
-        </div>
-      </div>
+      
 
       {/* Typography Hero Section */}
       <div className="px-8 lg:px-16 py-16 relative overflow-hidden">
@@ -52,13 +31,7 @@ export default function Typography() {
                 </div>
               </div>
             </div>
-            <div className="flex justify-center items-center">
-              <div className="w-64 h-128 bg-gray-900 rounded-lg flex items-center justify-center">
-                <div className="text-center">
-                  <div className="text-white text-6xl font-light">Aa</div>
-                </div>
-              </div>
-            </div>
+           
           </div>
         </div>
       </div>

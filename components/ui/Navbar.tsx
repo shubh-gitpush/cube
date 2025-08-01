@@ -7,7 +7,7 @@ type NavbarProps = {
   
   export default function Navbar({ activeSection, setActiveSection }: NavbarProps) {
     return (
-      <div className="relative w-full h-[800px] bg-[url('/stars.svg')] bg-cover bg-center bg-no-repeat overflow-visible ">
+      
         <div className="flex justify-center items-center h-full">
           <div className="flex items-center space-x-4 border border-gray-500 bg-black/30 backdrop-blur-md mb-64 rounded-full px-4 py-2">
             {navItems.map((item) => (
@@ -25,7 +25,7 @@ type NavbarProps = {
             ))}
           </div>
         </div>
-      </div>
+      
     );
   }
   

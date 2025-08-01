@@ -7,7 +7,7 @@ import Navbar from "@/components/ui/Navbar"
 import Intro from "@/components/ui/Intro"
 import Logo from "@/components/ui/Logo"
 import Typography from "@/components/ui/Typography"
-// import Color from "@/components/ui/Color"
+ import Color from "@/components/ui/Colors"
 import Visuals from "@/components/ui/Visuals"
 
 type NavSection = "Intro" | "Logo" | "Typography" | "Color" | "Visuals"
@@ -16,7 +16,7 @@ const componentsMap: Record<NavSection, React.FC> = {
   Intro,
   Logo,
   Typography,
-  // Color,
+  Color,
   Visuals,
 }
 
@@ -81,14 +81,17 @@ export default function CubeBrandGuidelines() {
       </div>
 
       {/* Semi-transparent overlay */}
-      <div className="absolute inset-0 bg-black/20 -z-10" />
+      <div className="relative z-0 min-h-screen flex flex-col overflow-hidden">
+  {/* Background image — behind everything */}
+  <div className="absolute top-0 left-0 bottom-5  w-full h-[700px] bg-[url('/stars1.png')] bg-cover bg-center bg-no-repeat z-0 pointer-events-none" />
 
-      {/* Foreground content */}
-      <div className="relative z-10 min-h-screen flex flex-col">
-        <Navbar activeSection={activeSection} setActiveSection={setActiveSection} />
-        <ActiveComponent />
-        <Footer />
-      </div>
+  {/* Foreground content */}
+  <div className="relative z-10">
+    <Navbar activeSection={activeSection} setActiveSection={setActiveSection} />
+    <ActiveComponent />
+    <Footer />
+  </div>
+</div>
     </div>
   )
 }
