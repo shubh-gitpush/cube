@@ -32,42 +32,33 @@ export default function LogoGuidelines() {
               </div>
             </div>
             <div className="flex justify-center">
-              <div className="w-64 h-64 bg-gray-900 rounded-lg flex items-center justify-center">
-                <div className="text-center">
-                  <div className="w-16 h-16 bg-white mx-auto mb-4 grid grid-cols-2 gap-1 p-2">
-                    <div className="bg-black"></div>
-                    <div className="bg-black"></div>
-                    <div className="bg-black"></div>
-                    <div className="bg-black"></div>
-                  </div>
-                  <div className="text-white text-xl font-medium">CUBE</div>
-                  <div className="text-gray-400 text-sm">Founders Space</div>
-                </div>
-              </div>
+              
             </div>
           </div>
         </div>
       </div>
 
       {/* More than just a shape */}
-      <div className="px-8 lg:px-16 py-16 bg-black-900">
-        <div className="max-w-7xl mx-auto">
-          <h2 className="text-4xl font-light mb-8">More than just a shape</h2>
-          <div className="grid lg:grid-cols-2 gap-16 items-center">
-            <div>
-              <p className="text-gray-300 text-lg leading-relaxed mb-8">
-                The CUBE logo is more than geometry—it's a symbol. A cube represents stability, foundation, and
-                structure. But when opened, it reveals infinite possibilities. Our logo embodies the transformation from
-                idea to reality.
-              </p>
-              <button className="bg-white text-black px-6 ml-[1130px] py-4 px-8 rounded hover:bg-gray-200 transition-colors">
-                Download Assets
-              </button>
-            </div>
-           
-          </div>
+      <div className="px-4 sm:px-8 lg:px-16 py-16 bg-black-900">
+  <div className="max-w-7xl mx-auto">
+    <h2 className="text-3xl sm:text-4xl font-light mb-8">More than just a shape</h2>
+    <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-16 items-center">
+      <div>
+        <p className="text-gray-300 text-base sm:text-lg leading-relaxed mb-8">
+          The CUBE logo is more than geometry—it's a symbol. A cube represents stability, foundation, and
+          structure. But when opened, it reveals infinite possibilities. Our logo embodies the transformation from
+          idea to reality.
+        </p>
+        <div className="flex justify-center lg:justify-end">
+          <button className="bg-white text-black px-6 py-4 w-full sm:w-auto rounded hover:bg-gray-200 transition-colors">
+            Download Assets
+          </button>
         </div>
       </div>
+    </div>
+  </div>
+</div>
+
 
       {/* Looking Deeper */}
       <div className="px-8 lg:px-16 py-16 bg-gray-100 text-black">

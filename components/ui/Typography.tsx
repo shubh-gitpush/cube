@@ -16,6 +16,7 @@ export default function Typography() {
                 <div className="flex gap-4">
                   <span className="text-white font-medium">Typography</span>
                   <span>Primary Brand Typeface</span>
+                  
                 </div>
                 <div className="flex gap-4">
                   <span className="text-white font-medium">Secondary</span>
@@ -61,49 +62,62 @@ export default function Typography() {
 
           
 
-          {/* Primary Brand Typeface */}
-          <div className="mb-16">
-            <h3 className="text-3xl font-semibold mb-4">Primary Brand Typeface</h3>
-            <div className="grid lg:grid-cols-2 gap-8">
-              <div>
-                <div className="text-8xl font-bold mb-4">Aa</div>
-                <h4 className="text-4xl font-semibold mb-2">Helvetica Neue</h4>
-                <p className="text-gray-700 text-sm leading-relaxed mb-6">
-                  Used for body text and general communication. Clean, neutral, and highly readable. Conveys
-                  professionalism and clarity.
-                </p>
-                <div className="font-sans text-lg space-y-2">
-                  <p>abcdefghijklmnopqrstuvwxyz</p>
-                  <p>ABCDEFGHIJKLMNOPQRSTUVWXYZ</p>
-                  <p>0123456789</p>
-                  <p>!@#$%&amp;*()+?&lt;&gt;=</p>
-                </div>
-              </div>
-              
-            </div>
-          </div>
+        <div className="mb-16 px-4 sm:px-6 lg:px-16">
+  {/* Primary Typeface */}
+  <div className="space-y-4">
+    <h3 className="text-2xl sm:text-3xl font-semibold mb-4">Primary Brand Typeface</h3>
+    <div className="text-sm sm:text-base leading-relaxed space-y-1 text-right">
+      <p>A modern classic, Helvetica Neue offers clarity, neutrality, and precision.</p>
+      <p>Its balanced structure and versatility make it ideal for communicating.</p>
+      <p>CUBE’s values with confidence and simplicity across all touchpoints.</p>
+    </div>
 
-          {/* Secondary Typeface */}
-          <div className="mb-16">
-            <h3 className="text-3xl font-semibold mb-4">Secondary Typeface</h3>
-            <div className="grid lg:grid-cols-2 gap-8">
-              <div>
-                <div className="text-8xl font-bold mb-4">Aa</div>
-                <h4 className="text-4xl font-semibold mb-2">Fontspring Rotunda</h4>
-                <p className="text-gray-700 text-sm leading-relaxed mb-6">
-                  Soft yet structured, Rotunda brings a friendly, modern touch to our visual language. Its rounded forms
-                  add warmth and accessibility—complementing the precision of Helvetica Neue.
-                </p>
-                <div className="font-sans text-lg space-y-2">
-                  <p>abcdefghijklmnopqrstuvwxyz</p>
-                  <p>ABCDEFGHIJKLMNOPQRSTUVWXYZ</p>
-                  <p>0123456789</p>
-                  <p>DEMO DEMO DEMO DEMO DEMO DEMO DEMO DEMO DEMO DEMO</p>
-                </div>
-              </div>
-              
-            </div>
-          </div>
+    <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 mt-8">
+      <div>
+        <div className="text-6xl sm:text-7xl lg:text-8xl font-bold mb-4">Aa</div>
+        <h4 className="text-2xl sm:text-3xl font-semibold mb-2">Helvetica Neue</h4>
+        <p className="text-gray-700 text-sm sm:text-base leading-relaxed mb-6">
+          Used for body text and general communication. Clean, neutral, and highly readable. Conveys
+          professionalism and clarity.
+        </p>
+        <div className="font-sans text-2xl sm:text-3xl lg:text-4xl space-y-2 font-bold">
+          <p>abcdefghijklmnopqrstuvwxyz</p>
+          <p>ABCDEFGHIJKLMNOPQRSTUVWXYZ</p>
+          <p>0123456789</p>
+          <p>!@#$%&amp;*()+?&lt;&gt;=</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  {/* Secondary Typeface */}
+  <div className="mt-20 space-y-4">
+    <h3 className="text-2xl sm:text-3xl font-semibold mb-4">Secondary Typeface</h3>
+    <div className="text-sm sm:text-base leading-relaxed space-y-1 text-right">
+      <p>A modern classic, Helvetica Neue offers clarity, neutrality, and precision.</p>
+      <p>Its balanced structure and versatility make it ideal for communicating.</p>
+      <p>CUBE’s values with confidence and simplicity across all touchpoints.</p>
+    </div>
+
+    <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 mt-8">
+      <div>
+        <div className="text-6xl sm:text-7xl lg:text-8xl font-bold mb-4">Aa</div>
+        <h4 className="text-2xl sm:text-3xl font-semibold mb-2">Fontspring Rotunda</h4>
+        <p className="text-gray-700 text-sm sm:text-base leading-relaxed mb-6">
+          Soft yet structured, Rotunda brings a friendly, modern touch to our visual language. Its rounded forms
+          add warmth and accessibility—complementing the precision of Helvetica Neue.
+        </p>
+        <div className="font-sans text-2xl sm:text-3xl lg:text-4xl font-bold space-y-2">
+          <p>abcdefghijklmnopqrstuvwxyz</p>
+          <p>ABCDEFGHIJKLMNOPQRSTUVWXYZ</p>
+          <p>0123456789</p>
+          <p>DEMO DEMO DEMO DEMO DEMO DEMO DEMO DEMO DEMO DEMO</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
 
           {/* CUBE Logo with Text Examples */}
           <div className="mt-20">

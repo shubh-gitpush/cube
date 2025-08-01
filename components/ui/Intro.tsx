@@ -83,11 +83,7 @@ const Intro = () => {
         </div>
   
         {/* Download Button */}
-        <div className="text-center">
-          <button className="bg-black text-white px-8 py-4 text-lg font-medium hover:bg-gray-900 transition-colors">
-            Download Cube Assets
-          </button>
-        </div>
+        
       </div>
     )
   }
